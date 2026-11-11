@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+.form, .history {
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background: #6c63ff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5148d8;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f4f4f9;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.transaction button {
+    background: #e74c3c;
+}
+
+@media (max-width: 600px) {
+    .summary {
+        flex-direction: column;
+    }
+}
